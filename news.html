@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<html>
+<link rel="stylesheet" href="html.css" type="text/css">
+<head>
+<title>News</title>
+</head>
+<main>
+  <style>
+  #navbar{
+    background-color: black;
+    height: 75px;
+    display: block;
+    position: sticky;
+    float:left;
+  }
+  .navbar{
+    font-size: 40px;
+    word-spacing:30px;
+  }
+#rightnavbar{
+  display:inline-block;
+}
+
+
+#button{
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:10px;
+  padding-right:10px;
+  border-radius:5%;
+  margin-left:590px;  /*Decided to simply do this since another line was created in the navbar, causing it to get pushed
+  down to the next line when I added 2 float:right elemets*/
+  font-size:20px;
+}
+.button{
+  background-color:#0CCB2C;
+  text-decoration:none;
+  border:none;
+}
+.button:hover{
+  background-color:grey;
+  transition-duration:0.5s;
+}
+#button2{
+padding-top:10px;
+padding-bottom:10px;
+padding-left:10px;
+padding-right:10px;
+border-radius:5%;
+margin-left:10px;
+font-size:20px;
+float:right;
+}
+.button2{
+background-color:#0CCB2C;
+text-decoration:none;
+border:none;
+}
+.button2:hover{
+  background-color:grey;
+  transition-duration:0.5s;
+}
+
+
+  #active{  /*Active element for user's visiblity on which page they're currently viewing*/
+    padding-left:20px;
+    padding-right:20px;
+    padding-top: 10px;
+    padding-bottom:10px;
+  }
+  .active{
+    background-color:#525252;/*Light grey*/
+  }
+  a:link{
+    color: white;
+    text-decoration: none;
+  }
+   a:visited{ /* Navbar link color*/
+    color: white;
+  }
+  #h1{  /*Done since the element seemed to force itself to the top of the page*/
+  padding-top:100px;
+  }
+
+
+  #body{
+    background-color: black;
+  }
+  .body{
+    color: white;
+    text-align: center;
+  }
+
+
+  #footernav{
+    background-color: black;
+    Height: 75px;
+  }
+  .footernav{
+color: white;
+text-align: center;
+font-size: 40px;
+word-spacing:
+  }
+  </style>
+
+
+<header id="navbar" class="navbar">
+  <u1>
+    <l1><a href="index.html"> Home</a></l1>
+      <l1><a href="aboutus.html">About</a></l1>
+      <l1><a class="active"id="active" href="news.html">News</a></l1>
+      <l1><a href="contact.html"> Contact </a></l1>
+    </l1>
+  </u1>
+</header>
+<header id="rightnavbar" class="rightnavbar"> <!--Right navbar is just the Sign Up and Log In buttons-->
+  <u1>
+    <button id="button" class="button">Sign Up</button>
+    <button id="button2" class="button2">Log In</button>
+  </u1>
+</header>
+
+
+<body id="body" class="body">
+  <h1 id="h1" class="h1">Volleyball Tournament Nov 6th</h1>
+  <p class="aupbody">The Crazy Coconuts are back and will be on the courts November 6th. Stay tuned for updates.</p>
+</body>
+<br>  <!--This was done temporarily until more content is added on each page-->
+<br>
+<br>
+<br>
+
+<Footer id="footernav" class="footernav">
+<u1>
+  <div id="div1" class="div1">
+  <l1><a href="contact.html">Contact US</a></l1>
+  <l1><a>Site Map</a></l1>
+</div>
+</u1>
+</footer>
+
+</main>
+</html>

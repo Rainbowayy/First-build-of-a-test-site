@@ -1,0 +1,156 @@
+<!DOCTYPE HTML>
+<html>
+<link rel="stylesheet" href="html.css" type="text/css">
+<head>
+<title>About Us</title>
+</head>
+<main>
+
+  <style>
+   #navbar{
+    background-color: black;
+    height: 75px;
+    display: block;
+    position:sticky;
+    float:left;
+  }
+  .navbar{
+    font-size: 40px;
+    word-spacing:30px;
+}
+#rightnavbar{
+display:inline-block;
+float;right;
+}
+
+
+#button{
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:10px;
+  padding-right:10px;
+  font-size:20px;
+  margin-left:590px;/*Decided to simply do this since another line was created in the navbar, causing it to get pushed
+  down to the next line when I added 2 float:right elemets*/
+  border-radius:5%;
+}
+.button{
+  background-color:#0CCB2C;
+  text-decoration:none;
+  display:inline-block;
+  border:none;
+}
+.button:hover{
+  background-color:grey;
+  transition-duration:0.5s;
+}
+#button2{
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:10px;
+  padding-right:10px;
+  font-size:20px;
+  float:right;
+  margin-left:10px;
+  border-radius:5%;
+}
+.button2{
+  background-color:#0CCB2C;
+  text-decoration:none;
+  display:inline-block;
+  border:none;
+}
+.button2:hover{
+  background-color:grey;
+  transition-duration:0.5s;
+}
+
+
+  #active{  /*Active element for user's visiblity on which page they're currently viewing*/
+    padding-left:20px;
+    padding-right:20px;
+    padding-top: 10px;
+    padding-bottom:10px;
+  }
+  .active{
+    background-color:#525252;/*Light grey*/
+  }
+  a:link{
+    color: white;
+    text-decoration: none;
+  }
+   a:visited{ /* Navbar link color*/
+    color: white;
+  }
+
+
+  #body{
+    background-color: black;
+
+  }
+  .body{
+    color: white;
+    text-align: center;
+  }
+  #h1{ /*Done since the element seemed to force itself to the top of the page*/
+  padding-top:100px;
+  }
+
+
+  #footernav{
+    background-color: black;
+    Height: 75px;
+  }
+
+  .footernav{
+color: white;
+text-align: center;
+font-size: 40px;
+word-spacing:
+  }
+  </style>
+
+
+<header id="navbar" class="navbar">
+  <u1>
+    <l1><a href="index.html"> Home</a></l1>
+      <l1><a class="active" id="active"href="aboutus.html">About</a></l1>
+      <l1><a href="news.html"> News </a></l1>
+      <l1><a href="contact.html"> Contact </a></l1>
+    </l1>
+  </u1>
+</header>
+<header id="rightnavbar" class="rightnavbar"> <!--Right navbar is just the Sign Up and Log In buttons-->
+  <u1>
+    <l1>
+      <button id="button" class="button">Sign Up</button>
+      <button id="button2" class="button2">Log In</button>
+    </l1>
+  </u1>
+</header>
+
+
+<body id="body" class="body">
+  <h1 id="h1" class="h1"> Meet The Team</h1>
+<img id="teammate1" class="teammate1"src="" alt="Robert">
+<img id="teammate2" class="teammate2"src="" alt="2">
+<img id="teammate3" class="teammate3"src="" alt="2"><br>
+<img id="teammate4" class="teammate4"src="" alt="2">
+<img id="teammate5" class="teammate5"src="" alt="2">
+<img id="teammate6" class="teammate6"src="" alt="2">
+</body>
+<br> <!--This was done temporarily until more content is added on each page-->
+<br>
+<br>
+<br>
+
+
+<Footer id="footernav" class="footernav">
+<u1>
+  <l1><a>Contact US</a></l1>
+  <l1><a>Site Map</a></l1>
+</u1>
+</footer>
+
+</main>
+</html>

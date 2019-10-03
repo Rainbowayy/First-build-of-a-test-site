@@ -1,0 +1,173 @@
+<!DOCTYPE HTML>
+<html>
+<link rel="stylesheet" href="html.css" type="text/css">
+<head>
+<title>Contact</title>
+</head>
+<main>
+  <style>
+  #navbar{
+    background-color: black;
+    height: 75px;
+    display: block;
+    position: sticky;
+    float:left;
+  }
+  .navbar{
+    font-size: 40px;
+    word-spacing:30px;
+  }
+#rightnavbar{
+  display:inline-block;
+  float:right;
+}
+
+
+#button1{
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-right:10px;
+  padding-left:10px;
+  margin-left:10px;
+  border-radius:5%;
+  font-size:20px;
+  float:right;
+}
+.button1{
+  background-color:#0CCB2C;
+  text-decoration:none;
+  border:none;
+}
+#button2{
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-right:10px;
+  padding-left:10px;
+  border-radius:5%;
+  font-size:20px;
+  float:right;
+}
+.button2{
+  background-color:#0CCB2C;
+  text-decoration:none;
+  border:none;
+}
+
+
+  #active{   /*Active element for user's visiblity on which page they're currently viewing*/
+    padding-left:20px;
+    padding-right:20px;
+    padding-top: 10px;
+    padding-bottom:10px;
+  }
+  .button1:hover{
+    background-color:grey;
+    transition-duration:0.5s;
+  }
+  .button2:hover{
+    background-color:grey;
+    transition-duration:0.5s;
+  }
+  .active{
+    background-color:#525252;/*Light grey*/
+
+  }
+  a:link{ /* Navbar link color*/
+    color: white;
+    text-decoration: none;
+  }
+   a:visited{
+    color: white;
+  }
+
+
+  #body{
+    background-color: black;
+  }
+  .body{
+    color: white;
+    text-align: center;
+  }
+  #textarea{
+  height: 200px;
+  width: 200px;
+  }
+  #button{
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    padding-right:10px;
+    border-radius:5%;
+  }
+  .button{
+    background-color:#0CCB2C; /*Green*/
+    color:black;
+    display:inline-block;
+    text-decoration:none;
+    border:none;
+    font-size: 20px;
+  }
+  .button:hover{
+    background-color: grey;
+    transition-duration:0.5s;
+  }
+  #form{  /*Done since the element seemed to force itself to the top of the page*/
+    padding-top:100px;
+  }
+
+  #footernav{
+    background-color: black;
+    Height: 75px;
+  }
+  .footernav{
+color: white;
+text-align: center;
+font-size: 40px;
+word-spacing:
+  }
+  </style>
+
+
+<header id="navbar" class="navbar">
+  <u1>
+    <l1><a href="index.html">Home</a></l1>
+      <l1><a href="aboutus.html">About</a></l1>
+      <l1><a href="news.html">News</a></l1>
+      <l1><a class="active" id="active"href="contact.html">Contact</a></l1>
+    </l1>
+    <u1>
+</header>
+<header id="rightnavbar" class="rightnavbar"> <!--Right navbar is just the Sign Up and Log In buttons-->
+  <u1>
+    <l1>
+      <button id="button1" class="button1">Log In</button>
+      <button id="button2" class="button2">Sign Up</button>
+      </l1>
+  </u1>
+</header>
+
+
+<body id="body" class="body">
+  <form id="form" class="form" action="submit feedback/fanmale">
+    <input type="checkbox" name="potentialteammate" id="potentialteammate">Are you intrested in playing with the Crazy Coconuts?</input>
+    <input type="checkbox" name="fanmale" id="fanmale"> We'd love hear from our fans, are you one of them?</input><br>
+        <br><input type="text" name="Email" id="email" placeholder="Please type your email"></input> <br>
+        <br>
+    <textarea type="text" name="textarea" id="textarea" placeholder="Type your feedback/questions here!"></textarea><br>
+    <input id="button" class="button"type="submit" value="submit"></input>
+</form>
+</body>
+<br>  <!--This was done temporarily until more content is added on each page-->
+<br>
+<br>
+<br>
+
+
+<Footer id="footernav" class="footernav">
+<u1>
+  <l1><a>Contact US</a></l1>
+  <l1><a>Site Map</a></l1>
+</u1>
+</footer>
+</main>
+</html>
